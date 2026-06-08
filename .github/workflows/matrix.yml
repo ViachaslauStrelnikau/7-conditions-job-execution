@@ -9,10 +9,10 @@ jobs:
         os-key: [ubuntu-latest, windows-latest]
         include:
           - node-version: 18
-          - os-key: ubuntu-latest
+            os-key: ubuntu-latest
         exclude:
           - node-version: 12
-          - os-key: windows-latest
+            os-key: windows-latest
     runs-on: ${{ matrix.os-key }}
     steps:
       - name: Get Code
