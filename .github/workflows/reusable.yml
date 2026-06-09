@@ -4,7 +4,7 @@ on:
       inputs:
         artifact-name:
           description: The name iof deployable artifact
-          required: true
+          required: false
           default: dist
           type: string
 jobs:
